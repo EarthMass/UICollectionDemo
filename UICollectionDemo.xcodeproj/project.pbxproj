@@ -15,6 +15,14 @@
 		4EE8B4861CFBD342006D727B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE8B4841CFBD342006D727B /* LaunchScreen.storyboard */; };
 		4EE8B4911CFBD342006D727B /* UICollectionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8B4901CFBD342006D727B /* UICollectionDemoTests.m */; };
 		4EE8B49C1CFBD342006D727B /* UICollectionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8B49B1CFBD342006D727B /* UICollectionDemoUITests.m */; };
+		4EE8B4AC1CFBD6DD006D727B /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8B4AA1CFBD6DD006D727B /* CustomCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		4EE8B4AD1CFBD6DD006D727B /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EE8B4AB1CFBD6DD006D727B /* CustomCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		4EE8B4AF1CFBD727006D727B /* 111.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EE8B4AE1CFBD727006D727B /* 111.jpeg */; settings = {ASSET_TAGS = (); }; };
+		4EE8B4B31CFBF109006D727B /* CollectionViewHeadV.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8B4B11CFBF109006D727B /* CollectionViewHeadV.m */; settings = {ASSET_TAGS = (); }; };
+		4EE8B4B41CFBF109006D727B /* CollectionViewHeadV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EE8B4B21CFBF109006D727B /* CollectionViewHeadV.xib */; settings = {ASSET_TAGS = (); }; };
+		4EF7F5111CFD325800367895 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF7F5101CFD325800367895 /* User.m */; settings = {ASSET_TAGS = (); }; };
+		4EF7F5131CFD355E00367895 /* BottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF7F5121CFD355E00367895 /* BottomView.xib */; settings = {ASSET_TAGS = (); }; };
+		4EF7F5161CFD35AA00367895 /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF7F5151CFD35AA00367895 /* BottomView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,18 @@
 		4EE8B4971CFBD342006D727B /* UICollectionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE8B49B1CFBD342006D727B /* UICollectionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionDemoUITests.m; sourceTree = "<group>"; };
 		4EE8B49D1CFBD342006D727B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE8B4A91CFBD6DD006D727B /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		4EE8B4AA1CFBD6DD006D727B /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
+		4EE8B4AB1CFBD6DD006D727B /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		4EE8B4AE1CFBD727006D727B /* 111.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 111.jpeg; sourceTree = "<group>"; };
+		4EE8B4B01CFBF109006D727B /* CollectionViewHeadV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewHeadV.h; sourceTree = "<group>"; };
+		4EE8B4B11CFBF109006D727B /* CollectionViewHeadV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewHeadV.m; sourceTree = "<group>"; };
+		4EE8B4B21CFBF109006D727B /* CollectionViewHeadV.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewHeadV.xib; sourceTree = "<group>"; };
+		4EF7F50F1CFD325800367895 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		4EF7F5101CFD325800367895 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		4EF7F5121CFD355E00367895 /* BottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomView.xib; sourceTree = "<group>"; };
+		4EF7F5141CFD35AA00367895 /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
+		4EF7F5151CFD35AA00367895 /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +125,19 @@
 				4EE8B47A1CFBD342006D727B /* AppDelegate.m */,
 				4EE8B47C1CFBD342006D727B /* ViewController.h */,
 				4EE8B47D1CFBD342006D727B /* ViewController.m */,
+				4EF7F5141CFD35AA00367895 /* BottomView.h */,
+				4EF7F5151CFD35AA00367895 /* BottomView.m */,
+				4EF7F5121CFD355E00367895 /* BottomView.xib */,
+				4EF7F50F1CFD325800367895 /* User.h */,
+				4EF7F5101CFD325800367895 /* User.m */,
 				4EE8B47F1CFBD342006D727B /* Main.storyboard */,
+				4EE8B4A91CFBD6DD006D727B /* CustomCollectionViewCell.h */,
+				4EE8B4AA1CFBD6DD006D727B /* CustomCollectionViewCell.m */,
+				4EE8B4AB1CFBD6DD006D727B /* CustomCollectionViewCell.xib */,
+				4EE8B4B01CFBF109006D727B /* CollectionViewHeadV.h */,
+				4EE8B4B11CFBF109006D727B /* CollectionViewHeadV.m */,
+				4EE8B4B21CFBF109006D727B /* CollectionViewHeadV.xib */,
+				4EE8B4AE1CFBD727006D727B /* 111.jpeg */,
 				4EE8B4821CFBD342006D727B /* Assets.xcassets */,
 				4EE8B4841CFBD342006D727B /* LaunchScreen.storyboard */,
 				4EE8B4871CFBD342006D727B /* Info.plist */,
@@ -244,8 +276,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EE8B4861CFBD342006D727B /* LaunchScreen.storyboard in Resources */,
+				4EE8B4AF1CFBD727006D727B /* 111.jpeg in Resources */,
 				4EE8B4831CFBD342006D727B /* Assets.xcassets in Resources */,
+				4EE8B4B41CFBF109006D727B /* CollectionViewHeadV.xib in Resources */,
 				4EE8B4811CFBD342006D727B /* Main.storyboard in Resources */,
+				4EF7F5131CFD355E00367895 /* BottomView.xib in Resources */,
+				4EE8B4AD1CFBD6DD006D727B /* CustomCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +307,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EE8B47E1CFBD342006D727B /* ViewController.m in Sources */,
+				4EE8B4B31CFBF109006D727B /* CollectionViewHeadV.m in Sources */,
+				4EF7F5111CFD325800367895 /* User.m in Sources */,
 				4EE8B47B1CFBD342006D727B /* AppDelegate.m in Sources */,
+				4EF7F5161CFD35AA00367895 /* BottomView.m in Sources */,
 				4EE8B4781CFBD342006D727B /* main.m in Sources */,
+				4EE8B4AC1CFBD6DD006D727B /* CustomCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UICollectionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guohx.StoryboardUse.UICollectionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UICollectionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guohx.StoryboardUse.UICollectionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +540,7 @@
 				4EE8B4A21CFBD342006D727B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EE8B4A31CFBD342006D727B /* Build configuration list for PBXNativeTarget "UICollectionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +549,7 @@
 				4EE8B4A51CFBD342006D727B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EE8B4A61CFBD342006D727B /* Build configuration list for PBXNativeTarget "UICollectionDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +558,7 @@
 				4EE8B4A81CFBD342006D727B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

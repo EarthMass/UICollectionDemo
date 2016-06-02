@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0.497 green:0.656 blue:0.889 alpha:1.000]];
+    //导航栏字体颜色设置
+    [[UINavigationBar appearance] setTitleTextAttributes:@{UITextInputTextColorKey: [UIColor whiteColor],NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    ViewController * viewC = [[ViewController alloc] init];
+    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:viewC];
+
+    
+    [self.window setRootViewController:nav];
+    [self.window makeKeyAndVisible];
+
+    
     return YES;
 }
 
